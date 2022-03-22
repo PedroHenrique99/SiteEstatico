@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px;
+}
+header{
+    width: 100vw;
+}
+.nav-main{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo-gps{
+    display: flex;
+    align-items: center;
+}
+.gps{
+    margin-right: 10px;
+}
+.logo{
+    font-size: 20px;
+    color: #f44336;
+    font-weight: 500;
+}
+.background-header{
+    background: url('/SiteDevMedia/src/img/london.jpg') no-repeat;
+    width: 100%;
+    margin: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menu-compra{
+    width: 600px;
+    height: 250px;
+    padding: 0px 20px;  
+    background-color: #FFF;
+}
+.servicos{
+    display: flex;
+    height: 40px;
+    background-color: #000;
+    color: #FFF;
+}
+.icon-servicos{
+    width: 200px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flight-icon, .hotel-icon, .rental-icon{
+    margin-right: 5px;
+}
+.titulo-servico{
+
+}
