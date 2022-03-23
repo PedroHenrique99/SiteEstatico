@@ -5,40 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/main.css">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fab73238ea.js" crossorigin="anonymous"></script>
+    <title>Travel</title>
 </head>
 <body>
       <header>
             <nav class="nav-main">
                 <div class="logo-gps" >
-                    <div class="gps">icon1</div>
+                    <div class="gps"><i class="fa-solid fa-location-dot"></i></div>
                     <div class="logo">Logo</div>
                 </div>
                 <div class="search">
-                    icon2
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </div>                
             </nav>
             <div class="background-header">
                 <div class="menu-compra">
                     <div class="servicos">
-                        <div class="icon-servicos"><span class="flight-icon">icon1</span><span class="flight-text">Flight</span></div>
-                        <div class="icon-servicos"><span class="hotel-icon">icon2</span><span class="flight-text">Hotel</span></div>
-                        <div class="icon-servicos"><span class="rental-icon">icon3</span><span class="flight-text">Rental</span></div>
+                        <div class="icon-servicos">
+                            <span class="flight-icon"><i class="fa-regular fa-plane-up"></i></span>
+                            <span class="flight-text">Flight</span>
+                        </div>
+                        <div class="icon-servicos">
+                            <span class="hotel-icon"><i class="fa-regular fa-bed"></i></span>
+                            <span class="flight-text">Hotel</span>
+                        </div>
+                        <div class="icon-servicos">
+                            <span class="rental-icon"><i class="fa-regular fa-car"></i></span>
+                            <span class="flight-text">Rental</span>
+                        </div>
                     </div>
-                    <h1 class="titulo-servico">Travel the world with us</h1>
-                    <form action="" class="formulario">
-                        <fieldset>
-                            <div class="form-from">
-                                <label>From</label>
-                                <input type="text" name="" id="">
-                            </div>
-                            <div class="form-to">
-                                <label>to</label>
-                                <input type="text" name="" id="">
-                            </div>
-                            <button class="button-pesquisar">Search and find dates</button>
-                        </fieldset>
-                    </form>
+                    <div class="menu-compra-form">
+                        <h1 class="titulo-servico">Travel the world with us</h1>
+                        <form action="" class="formulario">
+                                <div class="form-form">
+                                    <label>From</label>
+                                    <input type="text" name="" id="" class="borda-input" placeholder="Departing From">
+                                </div>
+                                <div class="form-to">
+                                    <label>to</label>
+                                    <input type="text" name="" id="" class="borda-input" placeholder="Arriving At">
+                                </div>
+                                <button class="button-pesquisar">Search and find dates</button>
+                        </form>
+                    </div>
                 </div>
             </div>
       </header>  

@@ -21,6 +21,12 @@ header{
 }
 .gps{
     margin-right: 10px;
+    color: #f44336;
+    margin-right: 10px;
+}
+.search{
+    color: #616161;
+    cursor: pointer;
 }
 .logo{
     font-size: 20px;
@@ -40,8 +46,10 @@ header{
 .menu-compra{
     width: 600px;
     height: 250px;
-    padding: 0px 20px;  
     background-color: #FFF;
+}
+.menu-compra-form{
+    padding: 0px 20px; 
 }
 .servicos{
     display: flex;
@@ -55,10 +63,42 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.icon-servicos:hover{
+   background-color: #f44336;
 }
 .flight-icon, .hotel-icon, .rental-icon{
     margin-right: 5px;
 }
 .titulo-servico{
-
+    font-weight: 100;
+    font-size: 25px;
+    margin: 20px 0;
+    color: #000;
+}
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form-form, .form-to{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    color: #616161;
+}
+.borda-input{
+    border: 1px solid #616161;
+    height: 30px;
+    font-size: 14px;
+    padding: 0 8px;
+}
+.button-pesquisar{
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: #616161;
+    color: #fff;
+    cursor: pointer;
 }
