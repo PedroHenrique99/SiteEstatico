@@ -5,6 +5,15 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 0px;
 }
+.container{
+    width: 1366px;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+
+                /*CABEÇALHO*/
 header{
     width: 100vw;
 }
@@ -101,4 +110,40 @@ header{
     background-color: #616161;
     color: #fff;
     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.cinqueterre{
+    background-image: url('/SiteDevMedia/src/img/cinqueterre.jpg');
+    width: 650px;
+    height: 600px;
+
+}
+.newyork{
+    background-image: url('/SiteDevMedia/src/img/newyork.jpg');
+    width: 300px;
+    height: 250px;
+}
+.sanfrancisco{
+    background-image: url('/SiteDevMedia/src/img/sanfran.jpg');
+    width: 300px;
+    height: 250px;
+}
+.paris{
+    background-image: url('/SiteDevMedia/src/img/paris.jpg');
+    width: 300px;
+    height: 250px;
+}
+.pisa{
+    background-image: url('/SiteDevMedia/src/img/pisa.jpg');
+    width: 300px;
+    height: 250px;
 }
